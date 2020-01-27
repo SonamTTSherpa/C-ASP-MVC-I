@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Razor Fun</title>
+</head>
+<body>
+    <h1>I love food!</h1>
+    <div class="wrapper">
+        @{
+            var StringArray = new string[]{"Churro", "Pizza", "Resse's Cup", "Crab Legs"};
+            foreach (var food in StringArray)
+            {
+                @if (food[0] == 'C')
+                {
+                    <p style="color:red;">@food</p>
+                }
+                else
+                {
+                    <p>@food</p>
+                }
+            }
+        }
+    </div>
+</body>
+</html>

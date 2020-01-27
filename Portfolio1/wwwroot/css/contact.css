@@ -1,0 +1,59 @@
+.wrapper {
+    width: 1000px;
+}
+
+* {
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.header p {
+    display: inline-block;
+}
+
+a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+span {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+.left-form {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+input {
+    display: block;
+}
+
+label {
+    margin-top: 5px;
+    display: block;
+}
+
+.msg {
+    display: inline-block;
+    vertical-align: top;
+}
+
+button {
+    margin-left: 670px;
+    display: block;
+}
